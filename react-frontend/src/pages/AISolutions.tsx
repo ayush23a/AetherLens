@@ -120,20 +120,20 @@ export const AISolutions: React.FC = () => {
                   <div className="border-t border-amber-200 p-6 bg-amber-50/50">
                     {tool.id === "image-generator" && (
                       <div className="text-center py-6">
-                        <p className="text-indigo-600 mb-6">Choose your AI image generator:</p>
+                        {/* <p className="text-indigo-600 mb-6">Choose your AI image generator:</p> */}
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
                           <button
                             onClick={() => navigate("/fastapi-image-gen")}
                             className="px-6 py-3 bg-gradient-to-r from-indigo-500 to-purple-500 text-white rounded-lg shadow hover:from-indigo-600 hover:to-purple-600 transition"
                           >
-                            FastAPI Generator
+                            Generate Image
                           </button>
-                          <button
+                           {/*<button
                             onClick={() => navigate("/streamlit-image-gen")}
                             className="px-6 py-3 bg-gradient-to-r from-orange-500 to-red-500 text-white rounded-lg shadow hover:from-orange-600 hover:to-red-600 transition"
                           >
                             Streamlit Generator
-                          </button>
+                          </button> */}
                         </div>
                       </div>
                     )}
@@ -143,7 +143,7 @@ export const AISolutions: React.FC = () => {
                       <div className="space-y-4">
                         {/*<h4 className="font-semibold text-amber-800">Upload Image for Caption</h4> */}
                         
-                          < a href = "https://caption-lens-1756919109222.vercel.app/">
+                          <a href = "https://caption-lens-1756919109222.vercel.app/">
                             <button 
                               className = "px-6 py-3 bg-gradient-to-r from-orange-500 to-red-500 text-white rounded-lg font-semibold hover:from-orange-600 hover:to-red-600 transition"
                             >
