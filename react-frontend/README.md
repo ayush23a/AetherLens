@@ -1,2 +1,2 @@
 # AetherLens
-AI based Stock Photo management web-application
+AetherLens is a new, self-contained, and standalone digital asset marketplace that serves as a disruptive alternative to traditional stock photo platforms. It is positioned as an active partner to its contributors rather than just a passive repository. The unique value proposition is rooted in the integration of the Cognitive Marketing Engine (CME), which shifts the focus from passive hosting to active sales and marketing enablement. The system is designed to operate independently of any other software.
