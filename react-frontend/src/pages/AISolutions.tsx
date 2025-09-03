@@ -141,11 +141,15 @@ export const AISolutions: React.FC = () => {
 
                     {tool.id === 'caption-generator' && (
                       <div className="space-y-4">
-                        <h4 className="font-semibold text-amber-800">Upload Image for Caption</h4>
-                        <div className="border-2 border-dashed border-amber-300 rounded-lg p-8 text-center hover:border-amber-400 transition-colors cursor-pointer">
-                          <Image className="h-12 w-12 text-amber-400 mx-auto mb-2" />
-                          <p className="text-amber-600">Drop an image here or click to upload</p>
-                        </div>
+                        {/*<h4 className="font-semibold text-amber-800">Upload Image for Caption</h4> */}
+                        
+                          < a href = "https://caption-lens-1756919109222.vercel.app/">
+                            <button 
+                              className = "px-6 py-3 bg-gradient-to-r from-orange-500 to-red-500 text-white rounded-lg font-semibold hover:from-orange-600 hover:to-red-600 transition"
+                            >
+                              Generate Captions
+                            </button>
+                          </a>
                       </div>
                     )}
 
