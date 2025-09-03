@@ -1,6 +1,6 @@
 import React from "react";
 import { Header } from "../components/Header";
-import ImageEditor from "../ai_image_editor/ai_image_editor/ImageEditor";
+// import ImageEditor from "../../../ai_image_editor/components/ImageEditor";
 
 export const AIImageEnhancer: React.FC = () => {
   return (
@@ -15,7 +15,7 @@ export const AIImageEnhancer: React.FC = () => {
         </p>
 
         {/* ✅ Render the editor */}
-        <ImageEditor />
+        {/* <ImageEditor /> */}
       </div>
     </div>
   );
